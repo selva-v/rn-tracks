@@ -1,8 +1,21 @@
-ec2-54-151-231-94.ap-southeast-1.compute.amazonaws.com
+# Tracks
+App to record the locations of a trip.
 
-ssh -i "gateway.pem" ec2-user@ec2-54-151-231-94.ap-southeast-1.compute.amazonaws.com
+## Prerequisites
 
-ssh -i "gateway.pem" ec2-user@54.151.231.94
-scp -i "gateway.pem" track-server.zip ec2-user@54.151.231.94:/tmp
+You will need the following things installed on your computer.
 
-ec2-54-151-231-94.ap-southeast-1.compute.amazonaws.com:3000
+* [Git](https://git-scm.com/)
+* [Node.js](https://nodejs.org/) (with npm)
+* [Expo CLI](https://docs.expo.io/versions/latest/workflow/expo-cli/)
+
+## Installation
+
+* `https://github.com/selva-v/rn-tracks.git`
+* `cd rn-tracks`
+* `npm install`
+
+## Running / Development
+
+* `npm start`
+* Install expo app on the phone and scan the QR code shown on Metro Bundler
